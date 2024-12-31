@@ -19,6 +19,8 @@
 5. Generalized rhythmic delta activity (GRDA)
 6. Other
 
+---
+
 ##### Detailed explanation of above patterns:
 * https://www.acns.org/UserFiles/file/ACNSStandardizedCriticalCareEEGTerminology_rev2021.pdf 
 
@@ -34,3 +36,36 @@
 </div>
 
 <a href="https://imgur.com/JuRILfJ"><img src="https://i.imgur.com/JuRILfJ.jpg" title="source: imgur.com" /></a>
+
+<p>
+    Dataset comprises two main components: training and testing data. The training dataset consists of three folders: spectrograms, EEG, and metadata.
+    <li> Spectrograms: Contains 11138 files representing unique spectrogram IDs, each with 408 rows and 401 columns.</li>
+        <li>EEG: Contains 17300 files representing unique EEG IDs, each comprising 12000 rows and 20 columns.</li>
+            <li>Metadata: Holds essential information about the spectrograms and EEG data, including target labels.</li>
+    
+    
+ Similarly test dataset also has Spectrogram, EEG and Metadata.
+        </p>
+
+---
+
+<div style="text-align:center;">
+    <h1 style="color: blue;">  <strong> Spectrogram Data  </strong> </h1>
+
+<a href="https://imgur.com/azRNvZv">
+    <img src="https://i.imgur.com/azRNvZv.jpg" title="source: imgur.com" /></a>
+</div>
+
+---
+
+<div style="text-align:center;">
+    <h1 style="color: blue;">  <strong> Spectrograms  </strong> </h1>
+<a href="https://imgur.com/ELn7UOW"><img src="https://i.imgur.com/ELn7UOW.jpg" title="source: imgur.com" /></a></div>
+
+EEG spectrograms are valuable for analyzing brain activity patterns associated with different cognitive states, tasks, or clinical conditions. They can provide insights into changes in brain oscillations across different frequency bands, such as alpha, beta, theta, and delta waves, and their temporal dynamics.
+
+---
+
+
+
+        
