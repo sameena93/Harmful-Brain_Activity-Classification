@@ -143,6 +143,61 @@ EEG spectrograms are valuable for analyzing brain activity patterns associated w
 
 ---
 
+<div style="text-align:center;">
+    <h1 style = "color: blue;"> Classification Report of Ensemble Models</h1>
+  <a href="https://imgur.com/Qo1Dkaq"><img src="https://i.imgur.com/Qo1Dkaq.jpg" title="source: imgur.com" /></a>
+</div>
+
+### In this classification report, we're evaluating the performance of a model in recognizing different classes. Precision tells us how many of the instances predicted as belonging to a certain class actually belong to that class. Recall, on the other hand, indicates how many of the actual instances of a class were correctly predicted by the model. F1-score is a balance between precision and recall.
+
+### Looking at the report, we can see that the classes "Seizure," "LPD," "GPD," and "Other" have relatively high precision scores, indicating that when the model predicts these classes, it's usually correct. However, when it comes to recall, which measures how well the model is capturing instances of each class, "Other" stands out with the highest score, indicating that the model is better at correctly identifying instances of this class compared to the others.
+
+### In simpler terms, while the model performs well overall, it's particularly good at recognizing instances of the "Other" class. This might mean that the data for this class is more distinguishable or that the model has been trained more effectively on this class.
+
+---
+
+<div style="text-align:center;">
+    <h1 style = "color: blue;"><strong> Test Data </strong></h1>
+
+</div>
+
+<div style="text-align:center;">
+
+  <a href="https://imgur.com/BtiMs1r">
+      <img src="https://i.imgur.com/BtiMs1r.jpg" title="source: imgur.com" />
+    </a>
+</div>
+
+---
+
+
+<div style="text-align:center;">
+    <h1 style = "color: blue;"> Spectrogram Image of Test Data</h1>
+
+
+<a href="https://imgur.com/3k1AFu9">
+<img src="https://i.imgur.com/3k1AFu9.jpg" title="source: imgur.com" />
+</a>
+</div>
+
+---
+
+
+<div style="text-align:center;">
+    <h1 style = "color: blue;"> Predicted Probability on Test Data Using Average Ensemble Technique</h1>
+<a href="https://imgur.com/gw62K0R"><img src="https://i.imgur.com/gw62K0R.jpg" title="source: imgur.com" /></a>
+</div>
+
+---
+
+
+<div style="text-align:center;">
+    <h1 style = "color: blue;"> My Submission Scores Table </h1>
+    <a href="https://imgur.com/WjaVNhp"><img src="https://i.imgur.com/WjaVNhp.jpg" title="source: imgur.com"/></a>
+</div>
+
+
+
 
 
         
