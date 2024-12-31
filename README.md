@@ -68,4 +68,81 @@ EEG spectrograms are valuable for analyzing brain activity patterns associated w
 
 
 
+<div style="text-align:center;">
+    <h1 style="color: blue;">  <strong> Class Distribution  </strong> </h1>
+    <a href="https://imgur.com/K9jbfYf"><img src="https://i.imgur.com/K9jbfYf.jpg" title="source: imgur.com" /></a></div>
+    
+    
+   
+    
+ <p>
+    <li>In the class distribution pie chart, the "other" category accounts for 42% of the dataset, while seizures make up 10%, LPD 16%, GPD 11%, LRDA 7.2%, and GRDA 9.4%. This chart helps us understand the proportion of different patterns in the dataset.</li>
+
+<li>For a CNN model, this information is crucial because it guides how the model is trained to recognize different patterns. By knowing the distribution of classes, the model can be trained more effectively to accurately identify seizures and other brain activities.</li>
+    <li>To address the imbalance in classification,utilized stratified group k-fold cross-validation ***StratifiedGroupKFold*** from ***sklearn.model_selection***. This method ensures that each fold of the data contains a proportional representation of each class, ensuring fair representation of each class in the training process and helping the model to learn from all classes equally</li>
+
+---
+
+
+<div style="text-align:center;" >
+  <h1 style = "color: blue;">Models Architecture</h1>
+    </div>
+    
+ 
+  <h1 style = "color: blue;">List of Models:</h1>
+  <ul>
+    <li>EfficientNetV2-B2</li>
+    <li>ResNet50</li>
+    <li>EfficientNetV2-B0</li>
+  </ul>
+<a href="https://imgur.com/7YBE8Wd"><img src="https://i.imgur.com/7YBE8Wd.jpg" title="source: imgur.com" /></a>
+
+
+* Global Pooling 2D: A pooling operation that reduces the spatial dimensions of the input by taking the maximum or average value over each feature map.
+* Dense Layer: A fully connected layer where each neuron is connected to every neuron in the previous layer.
+* Kernel Regularization L2 0.01: Regularization technique used to prevent overfitting by penalizing large weights.
+* KL Divergence: A measure of how one probability distribution diverges from a second, expected probability distribution, commonly used in probabilistic models.
+* Adam Optimizer: An optimization algorithm used for training deep learning models, known for its adaptive learning rate and momentum.
+
+---
+
+
+<div style="text-align:center;">
+  <a href="https://imgur.com/LBRa958">
+    <img src="https://i.imgur.com/LBRa958.jpg" title="source: imgur.com" />
+  </a>   
+</div>
+
+
+## Model 1: EfficientNetV2B2
+### Epochs 1-15:
+* Training Accuracy: Ranges from 31.45% to 71.70%
+* Training Loss: Decreases from 1.4558 to 0.6863
+* Validation Accuracy: Ranges from 46.57% to 68.36%
+* Validation Loss: Decreases from 1.4106 to 0.8878
+
+## Model 2: ResNet50
+### Epochs 1-15:
+* Training Accuracy: Ranges from 33.67% to 74.24%
+* Training Loss: Decreases from 1.7303 to 0.6641
+* Validation Accuracy: Ranges from 6.33% to 67.32%
+* Validation Loss: Increases from 2.0393 to 1.0153
+
+## Model 3: EfficientNetV2B0
+### Epochs 1-15:
+* Training Accuracy: Ranges from 31.76% to 71.03%
+* Training Loss: Decreases from 1.4545 to 0.7109
+* Validation Accuracy: Ranges from 46.57% to 66.98%
+* Validation Loss: Decreases from 1.4142 to 0.9212
+
+## Analysis:
+* All models show an improvement in both training and validation accuracy over the epochs.
+* Model 1 and Model 3 exhibit a steady decrease in both training and validation loss, indicating improved performance.
+* Model 2, however, shows erratic behavior with a significant increase in validation loss from epochs 1-15, which suggests overfitting.
+* Overall, Model 1 and Model 3 appear to perform better compared to Model 2, as they demonstrate a more consistent decrease in loss and increase in accuracy over the epochs.
+
+---
+
+
+
         
