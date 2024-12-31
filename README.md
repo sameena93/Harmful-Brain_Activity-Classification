@@ -199,5 +199,6 @@ EEG spectrograms are valuable for analyzing brain activity patterns associated w
 
 
 
-
+# Notebook Link:
+[Original Code of this notebook](https://www.kaggle.com/code/sameenamujawar/sm-harmful-brain-activity-classification)
         
