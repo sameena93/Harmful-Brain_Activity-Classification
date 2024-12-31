@@ -29,3 +29,8 @@
 2. Half of experts give a label                    - Other
 3. Half of experts give one of the remaining five label      - proto patterns
 4. Experts split between 2 of the 5 named patterns - edge cases
+
+<h1 style="color: blue;"> Dataset Flowchart </h1>
+</div>
+
+<a href="https://imgur.com/JuRILfJ"><img src="https://i.imgur.com/JuRILfJ.jpg" title="source: imgur.com" /></a>
